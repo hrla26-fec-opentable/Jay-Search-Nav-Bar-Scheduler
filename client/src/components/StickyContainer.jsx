@@ -1,8 +1,7 @@
 import React from 'react';
 import style from '../css/StickyContainer.css';
 import DatePickerReservation from './DatePickerReservation.jsx';
-import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Events, animateScroll as scroll, scrollSpy } from 'react-scroll'
 
 
 class StickyContainer extends React.Component {

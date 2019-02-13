@@ -69,8 +69,6 @@ class DatePickerReservation extends React.Component {
             for (let i = 0; i < 7; i++) {
                 formattedDate = dateFns.format(day, dateFormat);
                 const currDay = day;
-                // console.log(this.state.selectedDate, 'selectedDate', typeof(this.state.selectedDate))
-                // console.log(currDay, 'currDay', typeof(currDay))
                 days.push(
                     <div
                         className={(!dateFns.isSameMonth(currDay, monthStart) ? (style.col + ' ' + style.cell + ' ' + style.disabled) : 

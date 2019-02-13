@@ -82,11 +82,6 @@ class Search extends React.Component {
         return (
             <div>
                 <div className={style.searchContainer}>
-                    {/* <div className={style.datepickerWrapper}>
-                        <div className={style.datepickerSearchContainer}>
-                            {datePickerSearch ? <DatePickerSearch handleClickSearch={this.handleClickSearch} handleDaySelection={this.handleDaySelection} /> : <div></div>}
-                        </div>
-                    </div> */}
                     <div className={style.searchCloseButtonContainer}>
                         <i id="searchClicked" onClick={this.state.handleClick} className={"material-icons" + ' ' + style.closeIcon}>close</i>
                     </div>

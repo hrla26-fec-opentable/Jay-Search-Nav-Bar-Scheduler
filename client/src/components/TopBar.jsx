@@ -45,7 +45,6 @@ class TopBar extends React.Component {
                     </div>
                 </div>
 
-                {/* Refactor onclick funtion here */}
                 <div className={style.topContainerS2}>
                     {navClicked ? (<Nav />) : (<div></div>)}
                     <div className={style.topContainerS2S1}>

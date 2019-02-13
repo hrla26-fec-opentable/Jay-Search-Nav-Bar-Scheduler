@@ -11,9 +11,3 @@ describe('Test response type', () => {
     });
 });
 
-
-// describe('Test the root path', () => {
-//     test('It should response the GET method', () => {
-//         return request(app).get('/nav/Los_Angeles').expect(200);
-//     })
-// })
