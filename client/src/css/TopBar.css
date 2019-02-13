@@ -1,324 +1,324 @@
 
 .topBar{
-    height: 119px;
-    position: relative;
-    z-index: 9;
+height: 119px;
+position: relative;
+z-index: 9;
 }
 .topContainerS1{
-    height: 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: #f7f7f7;
-    font-size: 13px;
-    position: relative;
+height: 30px;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+background-color: #f7f7f7;
+font-size: 13px;
+position: relative;
 }
 .topContainerS1Right{
-    font-size: 11.5px;
-    padding: 0 1rem;
-    font-weight: 500;
-    width: 355px;
-    float: right;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 0 1rem;
-    color: #a8a8a8;
+font-size: 11.5px;
+padding: 0 1rem;
+font-weight: 500;
+width: 355px;
+float: right;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+padding: 0 1rem;
+color: #a8a8a8;
 }
 .topContainerS1RightS1{
-    flex: auto;
-    margin: auto;
-    max-width: 116px;
+flex: auto;
+margin: auto;
+max-width: 116px;
 }
 .topContainerS1RightS1:hover{
-    cursor: pointer;
+cursor: pointer;
 }
 .topContainerS1RightS2:hover{
-    cursor: pointer;
+cursor: pointer;
 }
 .topContainerS1RightS3:hover{
-    cursor: pointer;
+cursor: pointer;
 }
 .topContainerS1RightS4:hover{
-    cursor: pointer;
+cursor: pointer;
 }
 .topContainerS1RightS2{
-    flex: auto;
-    margin: auto;
-    display: flex; 
-    max-width: 70px;
+flex: auto;
+margin: auto;
+display: flex; 
+max-width: 70px;
 }
 
 .mobileContainer{
-    position: absolute;
-    top: 30px;
-    right: 194px; 
-    z-index: 5;
-    width: 146px;
-    height: 167px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border-radius: 4px;
-    border: 1px solid #ebebeb;
+position: absolute;
+top: 30px;
+right: 194px; 
+z-index: 5;
+width: 146px;
+height: 167px;
+background-color: white;
+display: flex;
+flex-direction: column;
+border-radius: 4px;
+border: 1px solid #ebebeb;
 }
 /* outside mobilecomponets on topheader */
 .topBarLogos{
-    flex: 1;
-    margin: auto;
-    flex: auto;
-    font-size: 19px;
-    color:#a8a8a8;
-    font-weight: 100;
+flex: 1;
+margin: auto;
+flex: auto;
+font-size: 19px;
+color:#a8a8a8;
+font-weight: 100;
 }
 .topBarLogos:hover{
-    cursor: pointer,
+cursor: pointer,
 }
 /* inside mobile component not in topbar */
 .mobileComponents{ 
-    flex: 1;
-    font-size: 14px;
-    color: #999;
-    padding-left: 13px;
-    padding-top: 11px;
+flex: 1;
+font-size: 14px;
+color: #999;
+padding-left: 13px;
+padding-top: 11px;
 }
 .mobileComponents:hover{
-    flex: 1;
-    background-color: #f7f7f7;
-    cursor: pointer;
+flex: 1;
+background-color: #f7f7f7;
+cursor: pointer;
 }
 #en{
-    margin-left: 2px;
-    margin-right: 1px;
+margin-left: 2px;
+margin-right: 1px;
 }
 .enContainer{
-    position: absolute;
-    top: 31px;
-    right: 30px;
-    z-index: 5;
-    height: 270px;
-    width: 146px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 4px;
-    border: 1px solid #ebebeb;
+position: absolute;
+top: 31px;
+right: 30px;
+z-index: 5;
+height: 270px;
+width: 146px;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 4px;
+border: 1px solid #ebebeb;
 }
 .enComponents{
-    flex: 1;
-    border: none;
-    display: flex;
+flex: 1;
+border: none;
+display: flex;
 }
 .languageName{
-    padding: 11px 0px 0px 13px;
+padding: 11px 0px 0px 13px;
 }
 
 .enComponents:hover{
-    cursor: pointer;
-    background-color: #f1f2f4;
-    border-left: 3px solid transparent; 
-    border-color: #237b98;
-    color: #237b98;
+cursor: pointer;
+background-color: #f1f2f4;
+border-left: 3px solid transparent; 
+border-color: #237b98;
+color: #237b98;
 }
 .enComponentsSelected{
-    border-left: 3px solid transparent; 
-    border-color: #237b98;
-    color: #237b98;
+border-left: 3px solid transparent; 
+border-color: #237b98;
+color: #237b98;
 }
 .topContainerS1RightS3{
-    flex: auto; 
-    margin: auto;
-    max-width: 59px;
-    margin-right: 8px;
+flex: auto; 
+margin: auto;
+max-width: 59px;
+margin-right: 8px;
 }
 .topContainerS1RightS4{
-    flex: auto; 
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    max-width: 74px;
+flex: auto; 
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+max-width: 74px;
 }
 .topContainerS1RightS4Logo{
-    flex: 1;
+flex: 1;
 }
 .smallLinks{
-    color: #4990ab;
-    margin-top: 1.5px;
-    align-content: center;
-    font-weight: 500;
+color: #4990ab;
+margin-top: 1.5px;
+align-content: center;
+font-weight: 500;
 }
 .smallLinksTop{
-    color: #999;
-    margin-top: 3.5px;
-    align-content: center;
-    font-weight: 500;
+color: #999;
+margin-top: 3.5px;
+align-content: center;
+font-weight: 500;
 }
 .smallLinksTop:hover{
-    cursor: pointer,
+cursor: pointer,
 }
 
 .smallText{
-    color: black;
-    align-content: center;
-    font-weight: 500;
+color: black;
+align-content: center;
+font-weight: 500;
 }
 .smallLinks:hover{
-    cursor: pointer;
-    color: #195d73;
+cursor: pointer;
+color: #195d73;
 
 }
 .smallText:hover{
-    cursor: pointer;
+cursor: pointer;
 }
 .topContainerS2{
-    height: 57px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    border: solid;
-    border-color: #f7f7f7;
-    border-width: thin;
-    background-color: white;
-    position: relative;
+height: 57px;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: row;
+border: solid;
+border-color: #f7f7f7;
+border-width: thin;
+background-color: white;
+position: relative;
 }
 .topContainerS2S1{
-    height: 100%;
-    width: 208px;
-    flex: 1.3;
-    align-items: center; 
-    display: flex;
+height: 100%;
+width: 208px;
+flex: 1.3;
+align-items: center; 
+display: flex;
 }
 .openTableLogo{
-    width:55px;
-    height:40px;
-    float: right;
-    margin-left: 32px;
-    margin-right: 5px;
+width:55px;
+height:40px;
+float: right;
+margin-left: 32px;
+margin-right: 5px;
 }
 .openTableLogoText{
-    font-weight: 700;
-    font-size: 23px;
-    color: black;
+font-weight: 700;
+font-size: 23px;
+color: black;
 }
 .topContainerS2S2{
-    border: solid;
-    border-color: #f7f7f7;
-    border-width: 0px thin 0px;
-    display: flex;
-    flex: 1;
-    flex-basis: 28%;
+border: solid;
+border-color: #f7f7f7;
+border-width: 0px thin 0px;
+display: flex;
+flex: 1;
+flex-basis: 28%;
 }
 .topContainerS2S2:focus{
-    outline: 0;
+outline: 0;
 }
 .locationNav{
-    /* margin: auto; */
-    display: flex;
-    flex-direction: row; 
-    font-weight: 300;
-    font-size: 15px;
+/* margin: auto; */
+display: flex;
+flex-direction: row; 
+font-weight: 300;
+font-size: 15px;
 }
 .locationNavHeader{
-    margin: auto;
-    flex: auto;
-    color: rgb(66, 38, 38);
-    font-weight: 500;
+margin: auto;
+flex: auto;
+color: rgb(66, 38, 38);
+font-weight: 500;
 } 
 .locationNavHeaderIcon{
-    color:  #D3D3D3;
-    margin: auto;
-    flex: auto;
+color:  #D3D3D3;
+margin: auto;
+flex: auto;
 }
 .topContainerS2S3{
-    flex: 3.5;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    background-color: white;
+flex: 3.5;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+background-color: white;
 }
 .S2S3buttonContainer{
-    width: 40%;
-    min-width: 77px;
-    display: flex;
+width: 40%;
+min-width: 77px;
+display: flex;
 }
 
 .signUpButton{
-    margin: auto;
-    line-height: 1.75rem;
-    width: 76px;
-    font-weight: 100;
-    font-size: 13px;
-    background-color: #237b98;
-    border-color: #1c627a;
-    color: #fff;
-    border-radius: 4px;
+margin: auto;
+line-height: 1.75rem;
+width: 76px;
+font-weight: 100;
+font-size: 13px;
+background-color: #237b98;
+border-color: #1c627a;
+color: #fff;
+border-radius: 4px;
 }
 .signUpButton:focus {
-    outline: none;
-  }
+outline: none;
+}
 .signUpButton:hover {
-    cursor: pointer;
+cursor: pointer;
 }
 .signInButton{
-    margin: auto;
-    padding: 0 1rem;
-    font-size: 15px;
-    color: #333;
-    background-color: white;
+margin: auto;
+padding: 0 1rem;
+font-size: 15px;
+color: #333;
+background-color: white;
 }
 .signInButton:hover{
-    cursor: pointer;
+cursor: pointer;
 }
 .searchHeaderIcon{
-    margin: auto;
-    color: black;
+margin: auto;
+color: black;
 }
 .searchHeaderIcon:hover{
-    cursor: pointer;
+cursor: pointer;
 }
 
 .topContainerS3{
-    height: 25%;
-    font-size: .75rem;
-    border: solid;
-    border-color: #f7f7f7;
-    border-width: thin;
-    background-color: white;
+height: 25%;
+font-size: .75rem;
+border: solid;
+border-color: #f7f7f7;
+border-width: thin;
+background-color: white;
 }
 .topContainerS3SContainer{
-    float: left;
-    display: flex;
-    margin-left: 20px;
+float: left;
+display: flex;
+margin-left: 20px;
 }
 .topContainerS3S1{
-    flex: 1 1 auto;
-    margin: 0.45rem 1rem 0 0.35rem;
+flex: 1 1 auto;
+margin: 0.45rem 1rem 0 0.35rem;
 }
 .topContainerS3S2{
-    flex: 1 1 auto;
-    margin: 0.45rem 1rem 0 0.35rem;
+flex: 1 1 auto;
+margin: 0.45rem 1rem 0 0.35rem;
 }
 .topContainerS3S3{
-    flex: 1 1 auto;
-    margin: 0.45rem 1rem 0 0.35rem;
+flex: 1 1 auto;
+margin: 0.45rem 1rem 0 0.35rem;
 }
 .topContainerS3S4{
-    flex: 1 1 auto;
-    margin: 0.45rem 1rem 0 0.35rem;
+flex: 1 1 auto;
+margin: 0.45rem 1rem 0 0.35rem;
 }
 .topContainerS3S5{
-    flex: 1 1 auto;
-    margin: 0.45rem 1rem 0 0.35rem;
+flex: 1 1 auto;
+margin: 0.45rem 1rem 0 0.35rem;
 }
 
 .topContainerS4{
-    height: auto;
+height: auto;
 }
 .appHeaderPhoto{
-    height: 100%;
-    width: 100%;
+height: 100%;
+width: 100%;
 } 
